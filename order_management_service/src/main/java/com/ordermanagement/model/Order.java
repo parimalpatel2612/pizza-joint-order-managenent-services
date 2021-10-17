@@ -7,8 +7,6 @@ import java.math.BigDecimal;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Order implements Serializable{
-	@JsonProperty("id")
-	private int id;
 	@JsonProperty("name")
 	private String name;
 	@JsonProperty("quantity")
